@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #73f0cd;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #282b2e;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Cormorant SC', serif;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.circle1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #e9f98d;
+    clip-path: circle(600px at right 1000px);
+    transition: 0.5s;
+}
+
+.circle2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f0a471;
+    clip-path: circle(600px at left 500px);
+    transition: 0.5s;
+}
+
+.main {
+    position: relative;
+    background-color: #7695f9;
+    width: 500px;
+    height: 500px;
+    margin-top: 2vh;
+    border-radius: 30px;
+}
+
+#longurl {
+    width: 400px;
+    height: 40px;
+    margin-top: 100px;
+    margin-left: 40px;
+    border: 2px solid rgb(9, 20, 237);
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+#shorten {
+    width: 80px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    background-color: #007bff;
+    color: white;
+}
+
+#shorten:hover {
+    background-color: #4cc0ff;
+    color: white;
+    cursor: pointer;
+}
+
+.copy {
+    display: flex;
+    flex-direction: row;
+}
+
+#shorturl {
+    width: 400px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 40px;
+    border: 2px solid rgb(9, 20, 237);
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+#copyBtn {
+    position: relative;
+    width: 39px;
+    height: 39px;
+    margin-top: 32px;
+    margin-left: -41px;
+    border: 0px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    background-color: white;
+    color: #007bff;
+}
+#copyBtn:hover {
+    background-color: #f8ebeb;
+    cursor: pointer;
+}
+.material-symbols-outlined{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 9px;
+}

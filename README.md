@@ -1,7 +1,7 @@
 # URL Shortener Application using HTML CSS JavaScript and shrtcode API
 
 ## Description
-This is a URL Shortener Application using HTML CSS JavaScript and shrtcode API. This application is used to shorten the URL. It is a project task from the CodeClause(https://internship.codeclause.com) Web Development Internship Program.
+This is a URL Shortener Application using HTML CSS JavaScript and shrtcode API. This application is used to shorten the URL. It is a project task from the [CodeClause](https://internship.codeclause.com) Web Development Internship Program.
 
 ## Built with
 - HTML

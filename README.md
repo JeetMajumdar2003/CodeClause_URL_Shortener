@@ -7,8 +7,8 @@ This is a URL Shortener Application using HTML CSS JavaScript and shrtcode API. 
 - HTML
 - CSS
 - JavaScript
-- shrtcode API(https://app.shrtco.de/docs)
-- Google Fonts(https://fonts.google.com/)
+- [shrtcode API](https://app.shrtco.de/docs)
+- [Google Fonts](https://fonts.google.com/)
 
 ## Features
 - Shorten the URL
